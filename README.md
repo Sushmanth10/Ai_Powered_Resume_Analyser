@@ -1,0 +1,108 @@
+# Talent X 🚀
+
+Talent X is a premium, AI-powered career development and recruitment platform designed to empower job seekers with state-of-the-art tools. By leveraging Google's Gemini AI, Talent X provides deep analysis and actionable insights to help users land their dream jobs.
+
+---
+
+## ✨ Features
+
+- 📄 **Advanced Resume Analysis**: Get detailed feedback on structure, content, and keywords.
+- 🎯 **ATS Score Calculator**: Evaluate your resume's compatibility with Applicant Tracking Systems.
+- 📊 **Job Matching**: Real-time percentage match between your resume and specific job descriptions.
+- 🎙️ **AI Mock Interviews**: Generate industry-specific interview questions for practice.
+- 💼 **Job & Internship Discovery**: Explore curated listings and find opportunities that match your profile.
+- 📂 **PDF Parsing**: Seamlessly extract text from uploaded PDF resumes.
+- 📱 **Modern UI/UX**: Sleek, responsive design with premium aesthetics.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Core**: [React 19](https://react.dev/), [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **AI Engine**: [Google Gemini Pro API](https://ai.google.dev/)
+- **Navigation**: [React Router](https://reactrouter.com/)
+- **PDF Processing**: [PDF.js](https://mozilla.github.io/pdf.js/)
+- **Styling**: Vanilla CSS (Modern design patterns)
+
+---
+
+## 📂 Project Structure
+
+```text
+Talent_X/
+├── components/       # Reusable UI components (Navbar, Cards, Alerts, etc.)
+├── pages/            # Page-level components (Home, Services, Profile, Auth)
+├── services/         # API integrations (Gemini AI service logic)
+├── context/          # React context for global state management
+├── utils/            # Shared helper functions and utilities
+├── constants.ts      # Application-wide constants and mock data
+├── types.ts          # Global TypeScript interface definitions
+├── App.tsx           # Root component and routing configuration
+└── index.tsx         # Application entry point
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+- A Google Gemini API Key
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/Talent_X.git
+   cd Talent_X
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables**:
+   Create a `.env.local` file in the root directory and add your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+   *(Note: The project is configured to use `GEMINI_API_KEY` from your environment files and map it to `process.env.API_KEY` via Vite configuration.)*
+
+### Running Locally
+
+To start the development server:
+```bash
+npm run dev
+```
+The application will be available at `http://localhost:5173`.
+
+### Production Build
+
+To create an optimized production build:
+```bash
+npm run build
+```
+To preview the build:
+```bash
+npm run preview
+```
+
+---
+
+## 💎 Design Philosophy
+
+Talent X focuses on a **premium, high-end aesthetic**. We utilize:
+- Vibrant gradients and sleek glassmorphism effects.
+- Modern typography for enhanced readability.
+- Subtle micro-animations for a smooth user experience.
+- Mobile-first, fully responsive layouts.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
